@@ -30,7 +30,7 @@ import (
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.
 var explorerDockerfile = `
-FROM cryptokaka/blockscout:latest
+FROM cryptokaka/blockscout:tagname
 
 ADD genesis.json /genesis.json
 RUN \
